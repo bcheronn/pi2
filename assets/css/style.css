@@ -1,3 +1,10 @@
+:root {
+  /* Custom properties */
+  --bg-color: #bf964b;
+
+  /* Global properties */
+  background-color: var(--bg-color);
+}
 /* Fonts definition */
 @font-face {
   font-family: "AvenirLTStd Book";
@@ -15,4 +22,3 @@
   font-family: "AvenirLTStd Heavy";
   src: url("assets/fonts/AvenirLTStd-Heavy.otf") format("font/otf");
 }
-    
