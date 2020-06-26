@@ -18,9 +18,11 @@
   
   :root {
   /* Custom properties */
+  --text-color: #ffffff;
   --bg-color: #bf964b;
 
   /* Global properties */
   font-family: "AvenirLTStd Light", sans-serif;
+  color: var(--text-color);
   background-color: var(--bg-color);
 }
