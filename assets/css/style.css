@@ -1,24 +1,26 @@
-:root {
+/* Fonts definition */
+@font-face {
+    font-family: "AvenirLTStd Book";
+    src: url("assets/fonts/AvenirLTStd-Book.otf") format("font/otf");
+  }
+  @font-face {
+    font-family: "AvenirLTStd Light";
+    src: url("assets/fonts/AvenirLTStd-Light.otf") format("font/otf");
+  }
+  @font-face {
+    font-family: "AvenirLTStd Medium";
+    src: url("assets/fonts/AvenirLTStd-Medium.otf") format("font/otf");
+  }
+  @font-face {
+    font-family: "AvenirLTStd Heavy";
+    src: url("assets/fonts/AvenirLTStd-Heavy.otf") format("font/otf");
+  }
+  
+  :root {
   /* Custom properties */
   --bg-color: #bf964b;
 
   /* Global properties */
+  font-family: "AvenirLTStd Light", sans-serif;
   background-color: var(--bg-color);
-}
-/* Fonts definition */
-@font-face {
-  font-family: "AvenirLTStd Book";
-  src: url("assets/fonts/AvenirLTStd-Book.otf") format("font/otf");
-}
-@font-face {
-  font-family: "AvenirLTStd Light";
-  src: url("assets/fonts/AvenirLTStd-Light.otf") format("font/otf");
-}
-@font-face {
-  font-family: "AvenirLTStd Medium";
-  src: url("assets/fonts/AvenirLTStd-Medium.otf") format("font/otf");
-}
-@font-face {
-  font-family: "AvenirLTStd Heavy";
-  src: url("assets/fonts/AvenirLTStd-Heavy.otf") format("font/otf");
 }
