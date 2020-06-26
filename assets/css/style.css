@@ -1,28 +1,29 @@
 /* Fonts definition */
 @font-face {
-    font-family: "AvenirLTStd Book";
-    src: url("assets/fonts/AvenirLTStd-Book.otf") format("font/otf");
-  }
-  @font-face {
-    font-family: "AvenirLTStd Light";
-    src: url("assets/fonts/AvenirLTStd-Light.otf") format("font/otf");
-  }
-  @font-face {
-    font-family: "AvenirLTStd Medium";
-    src: url("assets/fonts/AvenirLTStd-Medium.otf") format("font/otf");
-  }
-  @font-face {
-    font-family: "AvenirLTStd Heavy";
-    src: url("assets/fonts/AvenirLTStd-Heavy.otf") format("font/otf");
-  }
-  
-  :root {
+  font-family: "AvenirLTStd Book";
+  src: url("assets/fonts/AvenirLTStd-Book.otf") format("font/otf");
+}
+@font-face {
+  font-family: "AvenirLTStd Light";
+  src: url("assets/fonts/AvenirLTStd-Light.otf") format("font/otf");
+}
+@font-face {
+  font-family: "AvenirLTStd Medium";
+  src: url("assets/fonts/AvenirLTStd-Medium.otf") format("font/otf");
+}
+@font-face {
+  font-family: "AvenirLTStd Heavy";
+  src: url("assets/fonts/AvenirLTStd-Heavy.otf") format("font/otf");
+}
+
+:root {
   /* Custom properties */
-  --text-color: #ffffff;
+  --main-color: #ffffff;
   --bg-color: #bf964b;
+  --alt-color: #736c4d;
 
   /* Global properties */
   font-family: "AvenirLTStd Light", sans-serif;
-  color: var(--text-color);
+  color: var(--main-color);
   background-color: var(--bg-color);
 }
