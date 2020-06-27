@@ -36,3 +36,38 @@ a:link,
 a:visited {
   text-decoration: none;
 }
+
+.fullview {
+  height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#olive-header {
+  background-image: url("../img/group1-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#olive-navbar {
+  background-color: var(--alt-color);
+}
+
+#pasta-party {
+  background-image: url("../img/group6-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#address {
+  background-image: url("../img/group8-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+* {
+  background: rgba(0, 0, 0, 0.1);
+}
