@@ -16,7 +16,7 @@
   src: url("assets/fonts/AvenirLTStd-Heavy.otf") format("font/otf");
 }
 
-:root {
+html {
   /* Custom properties */
   --main-color: #ffffff;
   --bg-color: #bf964b;
@@ -26,6 +26,11 @@
   font-family: "AvenirLTStd Light", sans-serif;
   color: var(--main-color);
   background-color: var(--bg-color);
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 a {
@@ -38,18 +43,30 @@ a:visited {
 }
 
 .fullview {
+  /* width: 100vw; */
   height: 100vh;
+  position: relative;
 }
 
-img {
-  max-width: 100%;
-  max-height: 100%;
+.didone {
+  font-family: "Antic Didone", serif;
+}
+
+.heavy {
+  font-family: "AvenirLTStd Heavy", sans-serif;
+}
+
+.medium {
+  font-family: "AvenirLTStd Medium", sans-serif;
 }
 
 #olive-header {
-  background-image: url("../img/group1-bg.png");
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 80%),
+    url("../img/group1-bg.png");
+  /* background-image: url("../img/group1-bg.png"); */
   background-repeat: no-repeat;
   background-position: center center;
+  font-family: "AvenirLTStd Book", sans-serif;
 }
 
 #olive-navbar {
@@ -68,6 +85,6 @@ img {
   background-position: center center;
 }
 
-* {
+/* * {
   background: rgba(0, 0, 0, 0.1);
-}
+} */
